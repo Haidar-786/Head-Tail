@@ -1,0 +1,55 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  .parent {
+    /* border: 1px solid black; */
+    width: fit-content;
+    margin: 2rem auto;
+    padding: 2rem;
+    display: flex;
+    padding-top: 0rem;
+  }
+  
+  .parent > .coloumn {
+    margin: 0rem 1rem;
+  }
+  
+  .parent .coloumn .face {
+    border: 2px dashed green;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    position: relative;
+  }
+  .parent .coloumn .face .face-tooltip {
+    display: none;
+  }
+  
+  .parent .coloumn .face:hover .face-tooltip {
+    display: inline;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: peru;
+    padding: 0.2rem;
+    transform: translate(-20%, -105%);
+  }
+  
+  .error {
+    padding: 1rem;
+    color: red;
+    padding-bottom: 0rem;
+  }
+
+
+  .select-box{
+    width:225px;
+    height:35px;
+
+  }
+
+.select-box * {
+    width: 552px;
+  }
